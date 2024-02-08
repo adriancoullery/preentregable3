@@ -43,7 +43,7 @@ ul {
 }
 
 .enlace-color-3 {
-    height: 5rem;
+    height: 7rem;
     width: 5rem;
     border-radius: 100%;
     border: solid rgb(255, 255, 255) 0.1rem;
@@ -86,7 +86,9 @@ h1 {
     font-size: medium;
     margin: 1rem;
 }
-
+.iframe{
+    text-align: justify;
+}
 
 /* inicio del footer */
 .logo-wpp {
