@@ -86,7 +86,9 @@ h1 {
     font-size: medium;
     margin: 1rem;
 }
-
+.iframe{
+    text-align: justify;
+}
 
 /* inicio del footer */
 .logo-wpp {
