@@ -1,4 +1,4 @@
-/* estilos globales */    /*
+/* estilos globales */    
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0%;
@@ -22,7 +22,7 @@ ul {
     justify-content: space-around
 }
 
-/* inicio del header */      /*
+/* inicio del header */      
 
 .header {
     background-image: url(../imagenes/background.jpg);
@@ -51,7 +51,7 @@ ul {
 
 /* fin del header */
 
-/* comienzo del main */    /*
+/* comienzo del main */    
 .super-picada {
     size: 5rem;
 }
@@ -129,7 +129,7 @@ h1 {
 
 /* fin del footer */
 
-/*Media Query*/     /*
+/*Media Query*/     
 
 @media only screen and (min-width:320px) {
     .card-producto {
