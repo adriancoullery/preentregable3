@@ -34,8 +34,9 @@ h1 {
     margin: 1rem;
 }
 .iframe{
-    text-align: justify;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    align-content: center;
+    
 }
