@@ -1,12 +1,6 @@
-/* comienzo del main */
-.super-picada {
-    size: 5rem;
-}
+//pagina inicio
 
-h1 {
-    font-size: 2rem;
-    text-align: center;
-}
+
 
 .contenedor-imagenes {
     display: flex;
@@ -15,24 +9,27 @@ h1 {
     align-content: center;
     text-align: center;
     margin-top: 5rem;
-}
 
-.destacado-1 {
-    margin-top: 1rem;
-}
-
-.imagen-principal {
-    height: 17rem;
-    width: 17rem;
+    .destacado-1 {
+        margin-top: 1rem;
+    }
+    
+    .imagen-principal {
+        height: 17rem;
+        width: 17rem;
+    }
 }
 
 /*Pagina nosotros*/
+
 .historia {
     text-align: justify;
     font-family: roboto;
     font-size: medium;
     margin: 1rem;
 }
+
+//pagina contacto
 .iframe{
     display: flex;
     flex-wrap: wrap;
@@ -40,3 +37,29 @@ h1 {
     align-content: center;
     
 }
+
+
+//.super-picada {
+   // size: 5rem;
+//}
+
+//Headings
+h1 {
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+h2{
+ font-family: $fuentePrincipal;
+ color: nth($colores,4);
+}
+
+h3{
+font-family: $fuentePrincipal;
+font-size: x-large;
+text-decoration: underline;
+color: nth($colores,3);
+}
+
+

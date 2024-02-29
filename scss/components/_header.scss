@@ -1,28 +1,26 @@
-/* inicio del header */
-
 .header {
     background-image: url(../imagenes/background.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 30vh;
     width: 100%;
+
+    .enlace-color {
+
+        color: white;
+    }
+    
+    .enlace-color-2 {
+        width: 8rem;
+        height: 5rem;
+    }
+    
+    .enlace-color-3 {
+        height: 5rem;
+        width: 5rem;
+        border-radius: 100%;
+        border: solid rgb(255, 255, 255) 0.1rem;
+    }
 }
 
-.enlace-color {
 
-    color: white;
-}
-
-.enlace-color-2 {
-    width: 8rem;
-    height: 5rem;
-}
-
-.enlace-color-3 {
-    height: 5rem;
-    width: 5rem;
-    border-radius: 100%;
-    border: solid rgb(255, 255, 255) 0.1rem;
-}
-
-/* fin del header */
