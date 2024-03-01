@@ -1,9 +1,16 @@
-@import "./base/listas";
 @import "./base/variables";
-@import "./components/footer";
+@import "./base/listas";
+@import "./utilities/extends";
+@import "./utilities/maps";
+@import "./utilities/mixins";
 @import "./components/header";
 @import "./components/main";
+@import "./components/footer";
 @import "./components/media-query";
 @import "./components/estilos-globales";
+
+
+
+
 
 

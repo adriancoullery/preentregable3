@@ -1,14 +1,11 @@
 //pagina inicio
 
-
-
 .contenedor-imagenes {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    text-align: center;
-    margin-top: 5rem;
+    @extend %flex;
+    text-align:map-get($propiedadesmaps,alineartexto );
+    margin-top: 5rem; 
+}
+
 
     .destacado-1 {
         margin-top: 1rem;
@@ -18,7 +15,7 @@
         height: 17rem;
         width: 17rem;
     }
-}
+
 
 /*Pagina nosotros*/
 
@@ -31,22 +28,15 @@
 
 //pagina contacto
 .iframe{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    
+   @extend %flex;
+    width: auto;
 }
 
-
-//.super-picada {
-   // size: 5rem;
-//}
 
 //Headings
 h1 {
     font-size: 2rem;
-    text-align: center;
+    text-align:map-get($propiedadesmaps,alineartexto );
 
 }
 

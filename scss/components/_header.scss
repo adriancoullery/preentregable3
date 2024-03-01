@@ -7,8 +7,10 @@
 
     .enlace-color {
 
-        color: white;
+        &:hover {
+            color: nth($colores,1);
     }
+}
     
     .enlace-color-2 {
         width: 8rem;

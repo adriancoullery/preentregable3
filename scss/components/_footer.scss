@@ -16,18 +16,18 @@
         display: block;
         }
         .logo-insta {
-            width: 7rem;
+            width: map-get($propiedadesmaps,ancho);
         }
         .logo-wpp {
-            width: 7rem;
+            width: map-get($propiedadesmaps,ancho);
         }
         
         .logo-face {
-            width: 7rem;
+            width: map-get($propiedadesmaps,ancho);
         }
         
         .bandera-italia {
-            width: 7rem;
+            width: map-get($propiedadesmaps,ancho);
         }
         
 }

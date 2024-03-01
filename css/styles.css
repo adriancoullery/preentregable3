@@ -1,3 +1,74 @@
+.iframe, .contenedor-imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+
+.header {
+  background-image: url(../imagenes/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+  width: 100%;
+}
+.header .enlace-color:hover {
+  color: rgb(216, 23, 23);
+}
+.header .enlace-color-2 {
+  width: 8rem;
+  height: 5rem;
+}
+.header .enlace-color-3 {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 100%;
+  border: solid rgb(255, 255, 255) 0.1rem;
+}
+
+.contenedor-imagenes {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.destacado-1 {
+  margin-top: 1rem;
+}
+
+.imagen-principal {
+  height: 17rem;
+  width: 17rem;
+}
+
+/*Pagina nosotros*/
+.historia {
+  text-align: justify;
+  font-family: roboto;
+  font-size: medium;
+  margin: 1rem;
+}
+
+.iframe {
+  width: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: Roboto;
+  color: rgb(103, 103, 192);
+}
+
+h3 {
+  font-family: Roboto;
+  font-size: x-large;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
 .footer {
   padding-top: 3rem;
 }
@@ -25,75 +96,6 @@
 }
 .footer .bandera-italia {
   width: 7rem;
-}
-
-.header {
-  background-image: url(../imagenes/background.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 30vh;
-  width: 100%;
-}
-.header .enlace-color {
-  color: white;
-}
-.header .enlace-color-2 {
-  width: 8rem;
-  height: 5rem;
-}
-.header .enlace-color-3 {
-  height: 5rem;
-  width: 5rem;
-  border-radius: 100%;
-  border: solid rgb(255, 255, 255) 0.1rem;
-}
-
-.contenedor-imagenes {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  text-align: center;
-  margin-top: 5rem;
-}
-.contenedor-imagenes .destacado-1 {
-  margin-top: 1rem;
-}
-.contenedor-imagenes .imagen-principal {
-  height: 17rem;
-  width: 17rem;
-}
-
-/*Pagina nosotros*/
-.historia {
-  text-align: justify;
-  font-family: roboto;
-  font-size: medium;
-  margin: 1rem;
-}
-
-.iframe {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: center;
-}
-
-h1 {
-  font-size: 2rem;
-  text-align: center;
-}
-
-h2 {
-  font-family: Roboto;
-  color: rgb(103, 103, 192);
-}
-
-h3 {
-  font-family: Roboto;
-  font-size: x-large;
-  text-decoration: underline;
-  color: rgb(0, 0, 0);
 }
 
 /*Media Query*/
@@ -146,7 +148,6 @@ h3 {
     margin-bottom: 2rem;
   }
 }
-/* estilos globales */
 * {
   font-family: "Roboto", sans-serif;
   margin: 0%;
@@ -155,10 +156,6 @@ h3 {
 
 a {
   text-decoration: none;
-}
-
-a:hover {
-  color: rgb(255, 0, 0);
 }
 
 ul {
